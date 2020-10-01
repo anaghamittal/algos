@@ -15,8 +15,8 @@ public class LinearSearch {
     public static void main(String[] args) {
         int[] array = new int[100];
         // Initializing array with 1,2,....,100
-        for(int i = 1; i <= 100; i++)
-            array[i-1] = i;
+        for(int i = 0; i < 100; i++)
+            array[i] = i+1;
         // Elements to be searched in the array
         int[] search = {12,55,34,102,78};
         for(int i = 0; i < 5; i++) {
